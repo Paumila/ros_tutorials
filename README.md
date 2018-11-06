@@ -1,51 +1,74 @@
-# ROS tutorials
+# Tutorials de ROS
 
-# Installation
+# Instal·lació del ROS
 
-Followed instructions and environment configuration in http://wiki.ros.org/melodic/Installation/Ubuntu.
+Segueix les instruccions de la següent web per descargar i configurar el ROS:
 
-Commands executed listed in Installation docs.
+http://wiki.ros.org/melodic/Installation/Ubuntu.
 
-1. Installing and Configuring Your ROS Environment
-Followed tutorial for Installing and Configuring Your ROS Environment.
+# Tutorial 1: Instal·lació i configuració del entorn ROS
 
-Commands executed listed in Installing and Configuring Your ROS Environment docs.
+Segueix el tutorial 1 des de la següent web:
 
-2. Navigating the ROS Filesystem
-Followed tutorial for Navigating the ROS Filesystem.
+http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
 
-Understanding the ros<pack find | cd | ls> [package name] commands.
+En aquest tutorial aprenem i validem que la instal·lació i configuració del programa ROS estigui correcte
 
-3. Creating a ROS Package
-Followed tutorial for Creating a ROS Package.
+# Tutorial 2: Navagació amb el sistema ROS
 
-Created a new beginner_tutorial package. Filling /src/beginner_tutorials/package.xml with some custom information and removed all commented lines.
+Segueix el tutorial 2 des de la següent web:
 
-4. Building Packages
-Followed tutorial for Building Packages.
+http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem
 
-Readed and be sure that /build and /devel folder were created locally. .gitignore file is configured to ignore this folder to be pushed up to the repository.
+En aquest tutorial aprenem a utilitzar les seguents comandes de ros:
 
-5. Understanding ROS Nodes
-Followed tutorial for Understanding ROS Nodes.
+```rospack | roscd | rosls```
 
-ROS commands executions listed in Understanding ROS Nodes docs.
+# Tutorial 3: Creació d'un paquet ROS
 
-6. Understanding ROS Topics
-Followed tutorial for Understanding ROS Topics.
+Segueix el tutorial 3 des de la següent web:
 
-Playing with turtlesim, and using rqt_graph, rostopic, rosmsg, and rqt_plot to see how they work.
+http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 
-7. Understanding ROS Services and Parameters
-Followed tutorial for Understanding ROS Services and Parameters.
+En aquest tutorial aprenem a crear paquets en el ROS. En aquest cas creem un paquet anomenat "Begginner_tutorial".
 
-Using rosservice and rosparams to manipulate and understant services and parameters in ROS.
+Dins d'aquest paquet creem un fitxer "package.xml" el qual modifiquem una seria d'informació.
 
-8. Using rqt_console and roslaunch
-Only readed
+# Tutorial 4: Construim el paquet
 
-9. Using rosed to edit files in ROS
-Only readed
+Segueix el tutorial 4 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/BuildingPackages
+
+En aquest tutorial realitzem la compilació per construir el paquet i veure com apareix la carpeta ```/build``` i ```/devel```
+
+La compilació es similar que la del ```cmake``` pero amb ```catkin_make```
+
+# Tutorial 5: Entendre els Nodes de ROS
+
+Segueix el tutorial 5 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes
+
+En aquest tutorial aprenem a executar el ```roscore``` per poder visualitzar llistes dels nodes executant-se. En un dels punts del tutorial utilitzem la comanda ```rosrun turtlesim turtlesim_node``` per activar una finestra amb una pantalla blava i una tortuga
+
+# Tutorial 6: Entendre els temes de ROS
+
+Segueix el tutorial 6 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics
+
+En aquest tutorial comencem a jugar amb les següents comandes:
+
+``` turtlesim | rqt_graph | rostopic | rosmsg | rqt_plot```
+
+# Tutorial 7: Entendre serveis i parametres de ROS
+
+Segueix el tutorial 7 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams
+
+En aquest tutorial utilitzem rosservice i rosparams per apendre a manipular el serveis i parametres que te ROS. Principalment amb la finestra del ```turtleslim``` creem més tortugues i canviem el color de fons de la finestra
 
 10. Creating a ROS msg and srv
 Followed tutorial for Creating a ROS msg and srv.
