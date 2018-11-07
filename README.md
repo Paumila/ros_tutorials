@@ -70,10 +70,14 @@ http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams
 
 En aquest tutorial utilitzem rosservice i rosparams per apendre a manipular el serveis i parametres que te ROS. Principalment amb la finestra del ```turtleslim``` creem més tortugues i canviem el color de fons de la finestra
 
-10. Creating a ROS msg and srv
-Followed tutorial for Creating a ROS msg and srv.
+# tutorial 10: Crear un missatge i un servei ROS
 
-Created msg/Num.msg a srv/AddTwoInts.srv files as explained in tutorials, compiled and installed. Only issue found was creating the message file outside msg folder by mistake.
+Segueix el tutorial 10 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
+
+Creat carpeta "msg" amb un document i un missatge ```msg/Num.msg```
+Creat una carpeta "srv" amb un servei ```srv/AddTwoInts.srv```
 
 11. Writing a Simple Publisher and Subscriber (C++)
 Followed tutorial for Writing a Simple Publisher and Subscriber (C++).
