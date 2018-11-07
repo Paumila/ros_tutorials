@@ -79,12 +79,18 @@ http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
 Creat carpeta "msg" amb un document i un missatge ```msg/Num.msg```
 Creat una carpeta "srv" amb un servei ```srv/AddTwoInts.srv```
 
-11. Writing a Simple Publisher and Subscriber (C++)
-Followed tutorial for Writing a Simple Publisher and Subscriber (C++).
+# Tutorial 11: Writing a Simple Publisher and Subscriber (C++)
 
-Adding a talker and a listener in C++ from the tutorials. I'm going to suppose there are no errors in code execution, because in compilation there was none.
+Segueix el tutorial 11 des de la següent web:
 
-12. Writing a Simple Publisher and Subscriber (Python)
-Followed tutorial for Writing a Simple Publisher and Subscriber (Python).
+http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
 
-Adding a talker and a listener in Python from the tutorials. No changes in CMakeLists.txt, no wonder why.
+En aquest tutorial afegim un "talker" i un "listener" en C++. 
+
+# Tutorial 12. Writing a Simple Publisher and Subscriber (Python)
+
+Segueix el tutorial 12 des de la següent web:
+
+http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
+En aquest tutorial afegim un "talker" i un "listener" en Python.
