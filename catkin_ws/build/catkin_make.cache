@@ -1,2 +1,0 @@
-beginner_tutorials:beginner_tutorials1
--DCATKIN_DEVEL_PREFIX=/home/pau/Escritorio/Master en Robotica/Robotics Integration/ros_tutorials/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pau/Escritorio/Master en Robotica/Robotics Integration/ros_tutorials/catkin_ws/install -G Unix Makefiles
