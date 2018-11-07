@@ -3,6 +3,6 @@ prefix=/home/pau/Escritorio/Master en Robotica/Robotics Integration/ros_tutorial
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 0.1.0
-Cflags: 
+Cflags: -I/home/pau/Escritorio/Master en Robotica/Robotics Integration/ros_tutorials/catkin_ws/install/include
 Libs: -L/home/pau/Escritorio/Master en Robotica/Robotics Integration/ros_tutorials/catkin_ws/install/lib 
-Requires: 
+Requires: message_runtime
